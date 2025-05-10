@@ -144,8 +144,8 @@ IMPORTANT GUIDELINES:
             content: prompt,
           },
         ],
-        temperature: 0.5, // Lower temperature for more consistent output
-        max_tokens: 2500, // Increased token limit for more detailed flashcards
+        temperature: 0.8, // Lower temperature for more consistent output
+        max_tokens: 3000, // Increased token limit for more detailed flashcards
       }),
     })
 
