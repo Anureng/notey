@@ -49,10 +49,6 @@ export default function WorkflowSection() {
         </motion.div>
 
         <div className="relative">
-          {/* Connection line */}
-          <div className="absolute top-24 left-0 right-0 hidden md:block">
-            <div className="h-1 bg-gradient-to-r from-purple-200 to-blue-200 w-full max-w-4xl mx-auto rounded-full" />
-          </div>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-5xl mx-auto">
             <WorkflowStep
